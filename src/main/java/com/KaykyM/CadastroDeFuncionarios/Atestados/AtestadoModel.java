@@ -2,11 +2,16 @@ package com.KaykyM.CadastroDeFuncionarios.Atestados;
 
 import com.KaykyM.CadastroDeFuncionarios.Funcionarios.FuncionarioModel;
 import jakarta.persistence.*;
+import lombok.*;
 
 import java.util.Date;
 
 @Entity
 @Table(name = "tb_atestado")
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+
 public class AtestadoModel {
 
     @Id
